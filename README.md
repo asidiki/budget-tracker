@@ -1,8 +1,8 @@
-# Social-Network-API
+# Budget-Tracker
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description 
-This project is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This application uses MongoDB, Express.js, and Mongoose. 
+This project is an API for a budget tracker web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This application uses MongoDB, Express.js, and Mongoose. 
 
 ## Table of Contents
 * [Installation](#installation)
