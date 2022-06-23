@@ -20,9 +20,9 @@ app.use(cors({
   origin: ['*']
 }));
 
-mongoose.connect(MONGODB_URI, {
+mongoose.connect(MONGODB_URI || 'mongodb://localhost:27017/budget-tracker', {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: true
 });
 
 // routes
